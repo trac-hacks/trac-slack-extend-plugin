@@ -1,1 +1,1 @@
-# trac-slack-extend
+# trac-slack-extend-plugin
