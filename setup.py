@@ -9,6 +9,9 @@ setup(
             'trac_slack_extend = trac_slack_extend',
         ],
     },
+    install_requires=[
+        "requests"
+    ],
     url='',
     license='',
     author='krassi',
