@@ -13,7 +13,7 @@ setup(
         "requests"
     ],
     url='',
-    license='',
+    license='Apache License',
     author='krassi',
     author_email='krasimir.nikolov1994@gmail.com',
     description=''
