@@ -11,6 +11,11 @@ try:
 except ImportError as ex:
     logging.error("Code comments plugin does not found", exc_info=True)
 
+try:
+    from trac_slack_extend.roadmap_tickets_slack import *
+except ImportError as ex:
+    logging.error("Roadmap Tickets plugin does not found", exc_info=True)
+
 
 class TracSlackExtend(Component):
     pass
